@@ -1,11 +1,11 @@
 import { NavBar } from "./components/navBar";
-
-const ItemListContainer = props => <div>{props.greating}</div>
+import { ItemListContainer } from "./components/itemListContainer";
 
 function App() {
   return ( 
     <>
     <NavBar/>
+    <ItemListContainer greeting= "Bienvenidos!"/>
     </>
   )
 }
